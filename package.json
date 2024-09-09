@@ -9,18 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.8"
+    "@types/shortid": "^0.0.32",
+    "@types/valid-url": "^1.0.7",
+    "axios": "^1.7.7",
+    "mongoose": "^8.6.1",
+    "next": "14.2.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "eslint": "^8",
+    "typescript": "^5.5.4",
+    "@types/node": "^22.5.4",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "postcss": "^8.4.45",
+    "tailwindcss": "^3.4.10",
+    "eslint": "^9.10.0",
     "eslint-config-next": "14.2.8"
   }
 }
